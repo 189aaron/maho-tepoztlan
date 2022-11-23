@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    
+}
+
+.map-responsive iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+$yellow:  #F7E133 !default;
