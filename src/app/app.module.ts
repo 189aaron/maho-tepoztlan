@@ -11,6 +11,7 @@ import { CafeteriaComponent } from './components/cafeteria/cafeteria.component';
 import { ActividadesPromocionesComponent } from './components/actividades-promociones/actividades-promociones.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { TestimoniosComponent } from './components/testimonios/testimonios.component';
+import { HanamiComponent } from './components/hanami/hanami.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TestimoniosComponent } from './components/testimonios/testimonios.compo
     CafeteriaComponent,
     ActividadesPromocionesComponent,
     UbicacionComponent,
-    TestimoniosComponent
+    TestimoniosComponent,
+    HanamiComponent
   ],
   imports: [
     BrowserModule,
