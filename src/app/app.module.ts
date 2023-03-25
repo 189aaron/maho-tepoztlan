@@ -12,6 +12,8 @@ import { ActividadesPromocionesComponent } from './components/actividades-promoc
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { TestimoniosComponent } from './components/testimonios/testimonios.component';
 import { HanamiComponent } from './components/hanami/hanami.component';
+import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { AcercadenosotrosComponent } from './pages/acercadenosotros/acercadenosotros.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HanamiComponent } from './components/hanami/hanami.component';
     ActividadesPromocionesComponent,
     UbicacionComponent,
     TestimoniosComponent,
-    HanamiComponent
+    HanamiComponent,
+    PagenotfoundComponent,
+    AcercadenosotrosComponent
   ],
   imports: [
     BrowserModule,
